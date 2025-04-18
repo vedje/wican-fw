@@ -1,0 +1,25 @@
+{
+  "car_model": "VW: Passat GTE (Facelift 2019)",
+  "init": "ATSP6;ATST96;ATSH7E5;",
+  "pids": [
+    {
+      "pid": "22028C1",
+      "parameters": [
+        {
+          "name": "SOC",
+          "expression": "(B4-60)/(238-60)*100",
+          "unit": "%",
+          "min": "0",
+          "max": "100"
+        },
+        {
+          "name": "RAWSOC",
+          "expression": "B4",
+          "unit": "",
+          "min": "0",
+          "max": "255"
+        }
+      ]
+    }
+  ]
+}
